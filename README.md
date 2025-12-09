@@ -52,8 +52,7 @@ This fork also contains some corrected, remapped or full reconstructed assets.
 ---
 
 ## Notes
-This pack continues to evolve as more textures are verified, fixed or replaced.  
-Finally, **some areas and almost all monsters new addresses are still missing**, as they have not yet been accessible in-game during testing. They will be added as progress continues.  
+This pack continues to evolve as more textures are verified, fixed or replaced.
 
 If you are using the NPJB40001 version of the game, **rename the folder `ULJM05800` to `NPJB40001`**, otherwise PPSSPP will not load the textures.
 
