@@ -11,12 +11,12 @@ This fork also contains some corrected, remapped or full reconstructed assets.
 
 ## Main Improvements
 
-### Full ULJM05800 Support
+### Full NPJB40001 & ULJM05800 Support
 - Adjusted more than **600 texture address changes** so the pack loads correctly on ULJM05800.  
 - Fully compatible with the English patch by Team Maverick ONE and the HD Remake.
 
 ### New & Restored Assets
-- Fixes for **night-time variants** of numerous textures.  
+- Fixes for **night variants** of numerous textures.  
 - Creation of **missing textures** absent from the original packs, especially in environmental areas.  
 - Applied **unused HD textures** from the David-vz Remake for **Tundra** region, which were included but never actually mapped in-game (resolution increase from 512 → 1024).  
 - **Hand-made moon textures**, replacing the low-resolution originals.  
@@ -24,7 +24,7 @@ This fork also contains some corrected, remapped or full reconstructed assets.
 - Disabled the **resource-map and AI-upscaled maps**.  
   These maps were inconsistent between Resource-map and AI-upscaled maps, and AI-upscaled HUD is an ugly affront.  
 - Corrected **improper filtering settings** on several HUD textures, eliminating unwanted blur.
-- Cleaned many **alpha impurities** on several swamp textures caused by the AI ​​used for upscaling the original packs.
+- Cleaned many **alpha impurities** on several swamp textures caused by the AI ​​used for upscaling in the original packs.
 
 ### Formatting Fixes
 - Corrected **layout deviations**, **illegal characters**, and **lowered uppercase characters** in the texture pack structure.  
