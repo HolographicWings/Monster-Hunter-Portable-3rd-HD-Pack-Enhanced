@@ -1,0 +1,45 @@
+name: Package release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout release tag
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name }}
+          persist-credentials: false
+
+      - name: Creating ZIP
+        shell: bash
+        env:
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        run: |
+          set -euo pipefail
+
+          SAFE_TAG="$(printf '%s' "$RELEASE_TAG" | sed -E 's/[^[:alnum:]._-]+/-/g')"
+          SAFE_TAG="${SAFE_TAG:-release}"
+
+          ZIP_PATH="$RUNNER_TEMP/MHP3rd-HDPack-Enhanced-${SAFE_TAG}.zip"
+
+          git archive --format=zip -9 --output="$ZIP_PATH" HEAD
+
+          echo "ZIP_PATH=$ZIP_PATH" >> "$GITHUB_ENV"
+
+      - name: Upload ZIP to published release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release upload "$RELEASE_TAG" "$ZIP_PATH" --clobber
