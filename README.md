@@ -17,12 +17,15 @@ This fork also contains some corrected, remapped or full reconstructed assets.
 
 ### New & Restored Assets
 - Fixes for **night variants** of numerous textures.  
+- New **prompt based AI upscales**, monitored, corrected and tiled manually.  
 - Creation of **missing textures** absent from the original packs, especially in environmental areas.  
 - Applied **unused HD textures** from the David-vz Remake for **Tundra** region, which were included but never actually mapped in-game (resolution increase from 512 → 1024).  
 - **Hand-made moon textures**, replacing the low-resolution originals.  
 - Used a couple of textures from **[Three5media's MHFU HD Pack](https://github.com/three5media/mfhu-hd-retexture)** that were also present in MHP3.  
 - Disabled the **resource-map and AI-upscaled maps**.  
   These maps were inconsistent between Resource-map and AI-upscaled maps, and AI-upscaled HUD is an ugly affront.  
+- Corrected **300 doublons** in texture hashes.
+- Addressed **600 female armors and palico weapons** that was missing.
 - Corrected **improper filtering settings** on several HUD textures, eliminating unwanted blur.
 - Cleaned many **alpha impurities** on several swamp textures caused by the AI ​​used for upscaling in the original packs.
 
@@ -45,16 +48,15 @@ This fork also contains some corrected, remapped or full reconstructed assets.
 ### HD Pack & Remake Contributions
 - Original HD Pack: AFOOT, Darix, !-0 Kuña’i Ñakurutû (Tano), Effy, Stormie.  
 - Secondary HD pack: David-vz.  
+- Third HD pack: Three5media.  
 
 ### This Enhanced Fork
 - Fixes, remapping, new textures, optimization: HolographicWings.  
-- Some extremely large textures were **limited to 2048×2048 instead of 4096**, to ensure the pack remains usable on lower-end or mobile devices without exhausting VRAM.
+- New upscales: OpenAI (manually fixed and tiled by HolographicWings).
 
 ---
 
 ## Notes
-This pack continues to evolve as more textures are verified, fixed or replaced.
-
 If you are using the NPJB40001 version of the game, **rename the folder `ULJM05800` to `NPJB40001`**, otherwise PPSSPP will not load the textures.
 
 Contributions and issue reports are welcome, ideally for the missing addresses.
