@@ -40,6 +40,11 @@ This fork also contains some corrected, remapped or full reconstructed assets.
 
 ---
 
+## Examples of upscales
+[ImgSlide](https://imgico.com/a/oUhnJ0E)
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/d2cd8907-b66e-4f72-acbc-cbf57d5787fc" />
+<img width="256" height="512" alt="image" src="https://github.com/user-attachments/assets/99557c3b-7ab6-4bb0-9b55-fee820b1986e" />
+
 ## Credits
 
 ### Original Game & Assets
