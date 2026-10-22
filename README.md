@@ -9,13 +9,13 @@ This fork also contains some corrected, remapped or full reconstructed assets.
 
 ---
 
-## Main Improvements
+## Main Improvements.
 
-### Full NPJB40001 & ULJM05800 Support
+### Full NPJB40001 & ULJM05800 Support:
 - Adjusted more than **600 texture address changes** so the pack loads correctly on ULJM05800.  
 - Fully compatible with the English patch by Team Maverick ONE and the HD Remake.
 
-### New & Restored Assets
+### New & Restored Assets:
 - Fixes for **night variants** of numerous textures.  
 - New **prompt based AI upscales**, monitored, corrected and tiled manually.  
 - Creation of **missing textures** absent from the original packs, especially in environmental areas.  
@@ -29,42 +29,48 @@ This fork also contains some corrected, remapped or full reconstructed assets.
 - Corrected **improper filtering settings** on several HUD textures, eliminating unwanted blur.
 - Cleaned many **alpha impurities** on several swamp textures caused by the AI ​​used for upscaling in the original packs.
 
-### Formatting Fixes
+### Formatting Fixes:
 - Corrected **layout deviations**, **illegal characters**, and **lowered uppercase characters** in the texture pack structure.  
   Brought the pack back into full compliance with **PPSSPP’s official texture replacement guidelines**, ensuring predictable loading and eliminating possible issues on non-Windows operating systems.
 
-### Optimization
+### Optimization:
 - The entire pack has been processed with **OptiPNG**, reducing the pack's size without quality loss (doesn't lowers VRAM usage thought).  
   Used **[OxiPNG](https://github.com/oxipng/oxipng)**.  
 - Some extremely large textures were **limited to 2048×2048 instead of 4096**, to ensure the pack remains usable on lower-end or mobile devices without exhausting VRAM.
 
 ---
 
-## Examples of upscales
-[ImgSlide](https://imgico.com/a/oUhnJ0E)
+## Examples of prompt based upscales i manually fix.
+Theses are few in the pack cause they takes time in monitoring, fixing and tiling. (Expect about 30 of them for now, focused in Misty Peaks and Sand Plains)  
 <img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/d2cd8907-b66e-4f72-acbc-cbf57d5787fc" />
-<img width="256" height="512" alt="image" src="https://github.com/user-attachments/assets/99557c3b-7ab6-4bb0-9b55-fee820b1986e" />
+<img width="256" height="512" alt="image" src="https://github.com/user-attachments/assets/99557c3b-7ab6-4bb0-9b55-fee820b1986e" />  
 
-## Credits
+<img width="1024" height="512" alt="image" src="https://github.com/user-attachments/assets/f437c67d-da9b-437a-b73f-6ddfc3dc8737" />  
 
-### Original Game & Assets
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/5f5f74a8-0ab8-4116-a992-e0441f46d089" />  
+
+## Credits.
+
+### Original Game & Assets:
 - **Capcom** – developers and rightful owners of *Monster Hunter Portable 3rd* and all original art and content.
 
-### HD Pack & Remake Contributions
+### HD Pack & Remake Contributions:
 - Original HD Pack: AFOOT, Darix, !-0 Kuña’i Ñakurutû (Tano), Effy, Stormie.  
 - Secondary HD pack: David-vz.  
 - Third HD pack: Three5media.  
 
-### This Enhanced Fork
+### This Enhanced Fork:
 - Fixes, remapping, new textures, optimization: HolographicWings.  
 - New upscales: OpenAI (manually fixed and tiled by HolographicWings).
 
 ---
 
-## Notes
+## Notes.
 If you are using the NPJB40001 version of the game, **rename the folder `ULJM05800` to `NPJB40001`**, otherwise PPSSPP will not load the textures.
 
 Contributions and issue reports are welcome, ideally for the missing addresses.
+
+### **Theses screenshots are from the original pack and may not longer reflect the current version**
 
 ![Captura de pantalla (187)](https://user-images.githubusercontent.com/71895210/145267711-f88d24e8-3bea-4806-b02b-e8f6fc8c5ca7.png)
 ![Captura de pantalla (186)](https://user-images.githubusercontent.com/71895210/145267717-0d40dd33-b674-4fe9-b610-c9efc152a835.png)
