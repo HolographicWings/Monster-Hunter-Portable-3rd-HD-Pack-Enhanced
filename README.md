@@ -7,6 +7,7 @@ The **[Original pack by AFOOT, Darix, !-0 Kuña’i Ñakurutû (Tano), Effy and 
 This fork merges the work of **[David-vz’s HD Remake project](https://github.com/David-vz/MonsterHunterPortable3rdHDRemake)** with extensive additional improvements.
 This fork also contains some corrected, remapped or full reconstructed assets.  
 
+[![Download](https://img.shields.io/badge/Download-Latest%20Release-238636?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HolographicWings/Monster-Hunter-Portable-3rd-HD-Pack-Enhanced/releases)
 ---
 
 ## Main Improvements.
